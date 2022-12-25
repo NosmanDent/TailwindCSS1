@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body class="bg-black">
+
+    <header>
+        <!--Nav-->
+        <nav class=" bg-black border-b-4 border-green-700 ">
+            <div 
+                class="xl:flex xl:items-center xl:gap-12 xl:h-24 xl:mx-16 xl:flex-1
+                lg:flex lg:items-center lg:gap-12 lg:h-24 lg:mx-16 lg:flex-1
+                md:flex md:items-center md:gap-12 md:h-24 md:mx-16 md:flex-1
+                sm:flex sm:items-center sm:gap-4 sm:h-24 sm:flex-1 px-4
+                flex items-center gap-32 ">
+                <div class="tracking-tight pl-6">
+                    <span class="font-bold text-orange-700 xl:text-yellow-700 lg:text-blue-700 md:text-red-700 sm:text-gray-400 xl:text-3xl lg:text-3xl md:text-base">Afro</span>
+                    <span class="text-green-700 xl:text-3xl lg:text-3xl font-bold md:text-base">Music</span>
+                </div>
+
+                <ul class="flex gap-10 font-bold ml-auto xl:ml-auto lg:ml-auto text-white curoser-pointer hidden sm:flex">
+                    <li class="hover:text-green-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">Music</li>
+                    <li class="hover:text-green-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">Video</li>
+                    <li class="hover:text-green-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">Download</li>
+                    <li class="hover:text-green-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">Latest News</li>
+                    <li class="hover:text-green-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">My Library</li>
+                </ul>
+
+                <ul class="flex gap-6 font-bold text-green-700 hidden sm:flex sm:ml-auto">
+                    <li class="hover:text-orange-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">SIGN UP</li>
+                    <li class="hover:text-orange-700 xl:text-base lg:text-xs md:text-xs sm:text-xs">LOG IN</li>
+                </ul>
+
+                <button>
+                    <i class="fa-solid fa-magnifying-glass flex text-orange-700 xl:text-base lg:text-xs md:text-xs sm:text-xs"></i>
+                </button>
+
+                <button class="flex flex-1 justify-end py-3 px-4 focus:outline-none text-orange-700 xl:hidden lg:hidden md:hidden sm:hidden">
+                    <i class="text-2xl fas fa-bars"></i>
+                </button>
+                
+
+            </div>
+
+            
+        </nav>
+        <!--End of Navigation-->
+    </header>
+
+
+    <!--MainPage-->
+    <main>
+        <div class="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 xl:px-6 lg:px-6 md:px:6 sm:px-6">
+            
+            
+            <div class="w-full h-full pl-16 tracking-tight leading-tight">
+                <h1 class="text-white xl:text-5xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl font-bold pt-48 animate-bounce">
+                    Music is the strongest form of magic...
+
+                </h1>
+                
+                <p class="text-green-700 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aut aliquid totam facere reprehenderit, culpa molestias asperiores 
+                    exercitationem dolorum veniam itaque.
+                </p>
+
+                <button class="inline-block text-center bg-orange-700 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-green-700 mt-5">
+                    Get 3 month for $0
+                </button>
+
+                <button class="inline-block text-center bg-orange-700 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-green-700 mt-5">
+                   Check Plans
+                </button>
+
+                <p class="text-orange-700 text-xs pt-2">
+                    Individual plans only. $9/month after. <span class="underline"> <a href="">Terms and condition apply.</a></span> Open only to users who havn't tried Premium.
+                </p>
+
+                <p class="text-orange-700 text-xs text-bold">
+                    Offer ends 01/01/2023
+                </p>
+
+            </div>
+
+            <div class="w-full h-full flex-1 mb-0 md:mb-16 lg:mb-0 z-10">
+                <img src="pictures/img11.avif" class="w-full h-full animate-pulse" alt="">
+            </div>
+
+            
+        </div>
+
+    </main>
+
+    <!------------------------->
+    <div class="flex">
+        <div>
+            <h1 class="text-2xl font-extrabold tracking-tight text-green-700 ml-16 mt-16 mb-10">AfroMusic Playlist</h1>
+        </div>
+
+        <a href="" class="ml-auto pr-20">
+            <p class="text-orange-700 text-2xl font-extrabold tracking-tight ml-16 mt-16 mb-10">View All</p>
+        </a>
+        
+
+    </div>
+    
+
+    <!------------------------->
+
+    <!-----------Start of Playlist-------------->
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 pr-16 md:gap-y-4 sm:gap-y-4 sm:gap-x-4 gap-y-4">
+
+        
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/wiz.png" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">The Best of Afrobeats</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/burnaboy.webp" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Inspirational</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/asake.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Naijamapiano</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/davido.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Pop Culture</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4">
+                    <img src="pictures/Tiwa-Savage.webp" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Afro Soul</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+    </div>
+
+    <!--End of Playlist-->
+
+    <div class="flex">
+        <div>
+            <h1 class="text-2xl font-extrabold tracking-tight text-green-700 ml-16 mt-16 mb-10">Trending Albums</h1>
+        </div>
+
+        <a href="" class="ml-auto pr-20">
+            <p class="text-orange-700 text-2xl font-extrabold tracking-tight ml-16 mt-16 mb-10">View All</p>
+        </a>
+        
+
+    </div>
+
+    <!-----------Start of Albums-------------->
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 pr-16 md:gap-y-4 sm:gap-y-4 sm:gap-x-4 gap-y-4">
+
+        
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/billion.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Billion Dollar Baby</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/morewiz.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">More Love Less Ego</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/mavin.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Chapter X</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/asake2.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Mr Money with the Vibe</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+
+        <div class="bg-gray-900 hover:bg-orange-700 w-48 h-64 ml-16 rounded">
+            <a href="" class="">
+                
+
+                <div class="bg-orange-700 w-40 h-48 mx-4 mt-4 ">
+                    <img src="pictures/damini.jpg" class="object-center object-cover h-full transform transition-all hover:scale-125 rounded" alt="">
+                </div>
+
+                    
+                <div>
+                    <p class="text-extrabold text-white ml-4">Love Damini</p>
+
+                </div>
+
+            </a>
+           
+        </div>
+    </div>
+
+    <!--End of Albums-->
+
+
+    <!--Premium Section-->
+
+    <div>
+        <div>
+            <h1 class="text-4xl font-extrabold tracking-tight text-white mt-16 text-center">Why you should try Premium?</h1>
+        </div>
+
+    </div>
+
+
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 pr-16 md:gap-y-4 md:gap-x-4 sm:gap-y-4 sm:gap-x-6 gap-y-4 gap-x-4 px-16 mb-4">
+        <div>
+            <div class="w-48 h-48 bg-green-700 rounded-full flex items-center justify-center">
+                <img src="pictures/img1.jpeg.jpg" class="rounded-full object-center object-cover w-full h-full" alt="">
+                
+            </div>
+            <div class="items-center justify-center w-48">
+                <p class="text-white text-extrabold font-bold text-center">Download Music</p>
+            <p class="text-white text-center">Listen anywhere.</p>
+            </div>
+            
+        </div>
+        
+
+        <div>
+            <div class="w-48 h-48 bg-green-700 rounded-full flex items-center justify-center">
+                <img src="pictures/ad-free.jpg" class="rounded-full object-center object-cover w-full h-full" alt="">
+                
+            </div>
+            <div class="items-center justify-center w-48">
+                <p class="text-white text-extrabold font-bold text-center">Ad-free music listening.</p>
+            <p class="text-white text-center">Enjoy nonstop music.</p>
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="w-48 h-48 bg-green-700 rounded-full flex items-center justify-center">
+                <img src="pictures/anyorder.jpeg" class="rounded-full object-center object-cover w-full h-full" alt="">
+                
+            </div>
+            <div class="items-center justify-center w-48">
+                <p class="text-white text-extrabold font-bold text-center">Play songs in any order.</p>
+            <p class="text-white text-center">Any song, any order.</p>
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="w-48 h-48 bg-green-700 rounded-full flex items-center justify-center">
+                <img src="pictures/sound.webp" class="rounded-full object-center object-cover w-full h-full" alt="">
+                
+            </div>
+            <div class="items-center justify-center w-48">
+                <p class="text-white text-extrabold font-bold text-center">Higher sound quality.</p>
+            <p class="text-white text-center">Feel the sound.</p>
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="w-48 h-48 bg-green-700 rounded-full flex items-center justify-center">
+                <img src="pictures/sound2.jpeg" class="rounded-full object-center object-cover w-full h-full" alt="">
+                
+            </div>
+            <div class="items-center justify-center w-48">
+                <p class="text-white text-extrabold font-bold text-center">You dance, We Play.</p>
+            <p class="text-white text-center">Easy access to music</p>
+            </div>
+            
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="pb-16 gap-y-6">
+        <div class="bg-black h-full w-full grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 pr-16 md:gap-y-4 md:gap-x-4 sm:gap-y-4 sm:gap-x-6 gap-y-4 gap-x-4 pt-16 border-t-4 border-green-700 px-16">
+            <div class="tracking-tight">
+                <span class="font-bold text-orange-700 text-3xl">Afro</span>
+                <span class="text-green-700 text-3xl font-bold">Music</span>
+            </div>
+
+            <div>
+                <ul >
+                    <li class="font-bold text-gray-400 mb-6">Company</li>
+                    <li class="font-bold text-white mb-6">About</li>
+                    <li class="font-bold text-white mb-6">Job</li>
+                    <li class="font-bold text-white">For the Record</li>
+                    
+                </ul>
+            </div>
+
+            <div class="">
+                <ul class="">
+                    <li class="font-bold text-gray-400 mb-6">Community</li>
+                    <li class="font-bold text-white mb-6">For Artist</li>
+                    <li class="font-bold text-white mb-6">Developer</li>
+                    <li class="font-bold text-white mb-6">Investors</li>
+                    <li class="font-bold text-white">Vendors</li>
+                    
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="font-bold text-gray-400 mb-6">Useful Skills</li>
+                    <li class="font-bold text-white mb-6">Support</li>
+                    <li class="font-bold text-white mb-6">Web Player</li>
+                    <li class="font-bold text-white ">Free Mobile App</li>
+                    
+                </ul>
+            </div>
+
+            <div class="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+                <div class="bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <div class="bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pt-16">
+            <div class="flex px-16 gap-x-2">
+                <i class="fa-solid fa-flag text-white ml-auto pt-1"></i>
+                <a href="">
+                    <p class="text-gray-400 text- hover:text-green-700">Nigeria</p>
+                </a>
+                
+            </div>
+    
+            
+                <div class="">
+                    
+                    <ul class="flex gap-x-4 px-16">
+                        <span><a href=""><li class="text-gray-400 hover:text-green-700 text-xs">Legal</li> </a></span>
+                        <span><a href=""><li class="text-gray-400 hover:text-green-700 text-xs">Privacy Center</li></a></span>
+                        <span><a href=""><li class="text-gray-400 hover:text-green-700 text-xs">Privcy Policy</li></a></span>
+                        <span><a href=""><li class="text-gray-400 hover:text-green-700 text-xs">Cookies</li></a></span>
+                        <span><a href=""><li class="text-gray-400 hover:text-green-700 text-xs">About Ads</li></a></span>
+                        <li class="text-gray-400 text-xs ml-auto">c AfroMusic ABEL</li>
+                    </ul>
+                
+                </div>
+        </div>
+        
+        
+    </footer>
+
+   
+
+        
+
+    
+</body>
+</html>
